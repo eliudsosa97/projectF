@@ -1,0 +1,18 @@
+
+
+.container-fluid {
+    &>a{
+        .logo__navbar {
+            width: 35px;
+        }
+        img {
+            width: 120px;
+            margin-left: 15px;
+        }
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+    
+}  
