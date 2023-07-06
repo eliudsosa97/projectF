@@ -157,3 +157,12 @@ $white-ghost: rgb(250, 249, 253);
         }
     }
 }
+
+form{
+    background-color: aqua;
+    padding: 5%;
+    &>label{
+        width: 20rem;
+    }
+    
+}

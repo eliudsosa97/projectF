@@ -143,4 +143,12 @@
   margin: 10px;
 }
 
+form {
+  background-color: aqua;
+  padding: 5%;
+}
+form > label {
+  width: 20rem;
+}
+
 /*# sourceMappingURL=main.css.map */
