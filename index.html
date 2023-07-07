@@ -122,7 +122,7 @@
 
     <!-- Form -->
 
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" action="https://formsubmit.co/f70633857da0530b3b278ad68e089bb0">
         <div class="form__wrapper">
         <div class="form-group">
           <label for="nombre">Nombre</label>
@@ -137,8 +137,14 @@
           <textarea name="mensaje" class="form-control my-2" id="comentarios" rows="4" placeholder="Ingrese sus comentarios"></textarea>
         </div>
         <button type="submit" class="btn btn-success my-2">Enviar</button>
+
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+        <input type="hidden" name="_cc" value="eliud.gs@mediclarlab.com">
+        <input type="hidden" name="_captcha" value="false">
+
+        </div>
       </form>
-    </div>
+    
 
    
       

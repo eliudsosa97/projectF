@@ -1,3 +1,13 @@
+.fixed {
+  display: fixed;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: gray;
+  z-index: 999;
+}
+
 .container-fluid > a .logo__navbar {
   width: 35px;
 }
