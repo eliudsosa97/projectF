@@ -19,6 +19,19 @@
   justify-content: flex-end;
 }
 
+.nav__provisional {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.nav__provisional .wa {
+  width: 50px;
+}
+.nav__provisional .logo {
+  height: 45px;
+}
+
 @media (max-width: 992px) {
   .about__us {
     flex-direction: column !important;
@@ -30,6 +43,12 @@
   }
   .about__us .column__50 .content__about > h3 {
     text-align: center;
+  }
+  .logo {
+    height: 35px !important;
+  }
+  .wa {
+    height: 35px;
   }
 }
 .hero {
@@ -95,6 +114,10 @@
   min-width: 100%;
   max-width: 200%;
   height: 100%;
+}
+
+.wa {
+  float: right;
 }
 
 /* About Us */

@@ -24,3 +24,17 @@
     }
     
 }  
+.nav__provisional {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
+    
+    .wa{
+        width: 50px;
+    }
+
+    .logo{
+        height: 45px;
+    }
+}
